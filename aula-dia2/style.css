@@ -1,0 +1,86 @@
+/*Cascading Style Sheets(Folha de Estilos em Cascata)*/
+
+/*  -seletor
+        - Nome da tag
+        - Class
+        - id
+        - atributo
+    -propriedade
+    -valor da propriedade
+    -declaração*/
+
+    header{
+        background-color: red;
+    }
+
+    h3{
+        font-size: 30px;
+    }
+
+    /*Class*/
+    .conteudoInicial{
+        background-color: aqua;
+    }
+
+    .conteudoInicial.color-blue{
+        background-color: blue;
+    }
+    
+    /*Id*/
+    #titulo-strong{
+        font-size: 70px;
+    }
+
+    /*Seletor por atributo*/
+    img[src]{
+        width: 50px;
+    }
+
+    a[href="https://github.com/guilhermehub12"]{
+        background-color: black;
+    }
+
+    /*Unidades de Medida*/
+    /*
+    abolutas:
+    px-> valor fixo
+
+    relativas():
+    rem
+    %
+    */
+
+    section{
+        font-size: 20px;
+        /*vai de 100px a 900px*/
+        font-weight: bold;
+        font-family: "Times New Roman";
+        text-align: center;
+        color: black;
+    }
+
+    /*Dimensionamento - propriedades para elementos*/
+    section{
+        background-color: black;
+        border: solid 5px red;
+        border-radius: 5px;
+        width: 300px;
+        height: 800px;
+        /*cima esquerda baixo direita*/
+        padding: 30px 40px 30px 40px;
+        margin: 20px auto;
+    }
+
+    /*Posicionamento
+    display: inline > vc não consegue aplicar largura e altura
+    display: block > vc consegue aplicar largura e altura
+    display: inline-block;*/
+    a{
+        display: inline;
+    }
+    span{
+        display: block;
+    }
+    h2,p,div,article{
+        display: inline-block;
+    }
